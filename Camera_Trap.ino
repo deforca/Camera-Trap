@@ -5,8 +5,8 @@
   When motion is detected, we send an IR signal corresponding to the Nikkon's IR shutter trigger command, and we also make the Arduino internal led blink
   Every 10 minutes (or 10 min. after the last motion detection) we send the camera an IR shutter trigger command, to avoid the Nikkon's IR mode to time out
 
-  author Alberto Amengual
-  modified JUNE 28 2016 by Alberto Amengual
+  Author Alberto Amengual
+  Modified JUNE 28 2016 by Alberto Amengual
  */
 
 // The TimerOne library provides functions to use the Timer1 timer in the Arduino
